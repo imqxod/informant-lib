@@ -2,6 +2,7 @@
 Octohook ui lib informant version
 Developed by liam#4567
 Edited by xz#1111
+Edited for euphoria.lua
 ]]
 
 -- // Load
@@ -4490,7 +4491,7 @@ function library:init()
         self.watermark = {
             objects = {};
             text = {
-                {getgenv().Window.title, true},
+                {"Euphoria", true},
                 {'0 fps', true},
                 {'0ms', true},
             };
